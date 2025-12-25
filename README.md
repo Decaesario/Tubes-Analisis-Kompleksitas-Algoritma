@@ -9,7 +9,7 @@ Aplikasi dikembangkan berbasis web dan menyediakan antarmuka untuk memasukkan pa
 
 ---
 
-## 👨‍💻 Anggota Kelompok
+##  Anggota Kelompok
 - **Pangeran Clevario Decaesario** (103012400148)  
 - **Raihan Wendra Baswara** (103012400330)  
 - **Achmad Raffa Adhiyaksa** (103012400200)  
@@ -19,7 +19,7 @@ Telkom University, 2025
 
 ---
 
-## 🎯 Tujuan
+##  Tujuan
 1. Mengimplementasikan algoritma iteratif dan rekursif untuk menghitung deret geometri.
 2. Menganalisis kompleksitas waktu dan ruang dari kedua algoritma.
 3. Membandingkan waktu eksekusi algoritma iteratif dan rekursif berdasarkan hasil pengujian.
@@ -27,7 +27,7 @@ Telkom University, 2025
 
 ---
 
-## 🧮 Konsep Deret Geometri
+##  Konsep Deret Geometri
 Deret geometri merupakan barisan bilangan dengan bentuk:
 
 a, ar, ar², ar³, …, arⁿ⁻¹
@@ -41,7 +41,7 @@ dengan:
 
 ## ⚙️ Implementasi Algoritma
 
-### 🔄 Algoritma Iteratif
+###  Algoritma Iteratif
 Algoritma iteratif menggunakan struktur perulangan untuk menghitung setiap suku deret secara berurutan hingga suku ke-n.
 
 **Kompleksitas waktu:** O(n)  
@@ -57,7 +57,7 @@ function geometriIteratif($a, $r, $n) {
     }
     return $hasil;
 }
-🔁 Algoritma Rekursif
+ Algoritma Rekursif
 Algoritma rekursif menghitung deret geometri dengan cara memanggil fungsi secara berulang hingga mencapai kondisi dasar (base case).
 
 Kompleksitas waktu: O(n)
@@ -71,7 +71,7 @@ function geometriRekursif($suku, $r, $n) {
     }
     return $suku + geometriRekursif($suku * $r, $r, $n - 1);
 }
-🧪 Metode Pengujian
+ Metode Pengujian
 Parameter input: suku pertama (a), rasio (r), dan jumlah suku (n)
 
 Nilai n divariasikan untuk mengamati perubahan waktu eksekusi
@@ -80,7 +80,7 @@ Setiap algoritma dijalankan 100.000 kali untuk mendapatkan hasil waktu yang lebi
 
 Pengukuran waktu menggunakan fungsi microtime(true) pada PHP
 
-📊 Hasil Pengujian
+ Hasil Pengujian
 Berdasarkan hasil pengujian empiris:
 
 Waktu eksekusi kedua algoritma meningkat seiring bertambahnya nilai n
@@ -89,7 +89,7 @@ Algoritma iteratif secara konsisten memiliki waktu eksekusi lebih cepat dibandin
 
 Perbedaan disebabkan oleh overhead pemanggilan fungsi dan penggunaan stack pada algoritma rekursif
 
-🧠 Kesimpulan
+ Kesimpulan
 Algoritma iteratif dan rekursif sama-sama menghasilkan nilai deret geometri yang benar.
 
 Secara teoretis, keduanya memiliki kompleksitas waktu O(n).
@@ -100,7 +100,7 @@ Algoritma rekursif membutuhkan ruang tambahan akibat stack pemanggilan fungsi.
 
 Untuk perhitungan deret geometri dengan ukuran input besar, algoritma iteratif lebih disarankan.
 
-🚀 Cara Menjalankan Program
+ Cara Menjalankan Program
 Pastikan PHP telah terinstal
 
 Jalankan server PHP:
